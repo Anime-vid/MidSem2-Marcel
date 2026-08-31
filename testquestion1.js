@@ -4,6 +4,7 @@ function setup(){
  background(220);
 }
 function draw() {
+world.gravity.y = 50;
 
 if (mouse.presses()) {
     ball = new Sprite(mouse.x,mouse.y,50)
