@@ -10,6 +10,5 @@ world.gravity.y = 50;
 if (mouse.presses()) {
     ball = new Sprite(mouse.x,mouse.y,50)
     ball.mass = 10;
-    ball.gravity.y = 10
 }
 }
