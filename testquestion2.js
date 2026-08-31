@@ -14,6 +14,6 @@ if (mouse.presses()) {
     ball.mass = 10;
     ball.bounciness = 0.5
 }
-floor.new
+floor.new Sprite()
 }
 
