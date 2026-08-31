@@ -5,7 +5,7 @@ function setup(){
  background(220);
  floor = new Sprite(300,380)
 floor.width = 600;
-floor.height = 125;
+floor.height = 30;
 floor.collider = "static";
 }
 
