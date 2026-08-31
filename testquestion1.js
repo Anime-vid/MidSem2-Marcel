@@ -5,7 +5,5 @@ function setup(){
 }
 function draw() {
 
-mouse.presses(
-    ball = new sprite()
-)
+mouse.presses(ball = new Sprite(mouse.x,mouse.y,50))
 }
