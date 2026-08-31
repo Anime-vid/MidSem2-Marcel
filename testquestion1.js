@@ -6,6 +6,6 @@ function setup(){
 function draw() {
 
 mouse.presses(
-    ball = new
+    ball = new sprite()
 )
 }
