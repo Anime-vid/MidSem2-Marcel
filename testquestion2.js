@@ -14,7 +14,7 @@ if (mouse.presses()) {
     ball.mass = 10;
     ball.bounciness = 0.5
 }
-floor = new Sprite(0,380)
+floor = new Sprite(500,380)
 floor.width = 400;
 floor.height = 125;
 floor.collider = "static";
