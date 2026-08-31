@@ -3,7 +3,7 @@ let floor
 function setup(){
  createCanvas(600, 400);
  background(220);
- floor = new Sprite(300,100)
+ floor = new Sprite(300,400)
 floor.width = 600;
 floor.height = 30;
 floor.collider = "static";
