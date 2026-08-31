@@ -5,5 +5,5 @@ function setup(){
 }
 function draw() {
 
-mouse.presses(new Sprite())
+mouse.presses()
 }
