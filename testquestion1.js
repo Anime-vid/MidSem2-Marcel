@@ -5,5 +5,5 @@ function setup(){
 }
 function draw() {
 
-mouse.presses(new s)
+mouse.presses(new Sp)
 }
