@@ -7,5 +7,6 @@ function draw() {
 
 if (mouse.presses()) {
     ball = new Sprite(mouse.x,mouse.y,50)
+    ball.mass = 10
 }
 }
