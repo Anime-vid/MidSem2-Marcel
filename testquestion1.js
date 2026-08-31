@@ -5,5 +5,7 @@ function setup(){
 }
 function draw() {
 
-mouse.presses()
+mouse.presses(
+    ball = new
+)
 }
