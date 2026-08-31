@@ -1,9 +1,10 @@
 let ball
+let floor
 function setup(){
  createCanvas(600, 400);
  background(220);
 }
-let floor
+
 function draw() {
 background(220)
 
@@ -13,6 +14,6 @@ if (mouse.presses()) {
     ball.mass = 10;
     ball.bounciness = 0.5
 }
-
+floor.new
 }
 
