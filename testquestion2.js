@@ -3,6 +3,10 @@ let floor
 function setup(){
  createCanvas(600, 400);
  background(220);
+ floor = new Sprite(300,380)
+floor.width = 600;
+floor.height = 125;
+floor.collider = "static";
 }
 
 function draw() {
@@ -14,9 +18,6 @@ if (mouse.presses()) {
     ball.mass = 10;
     ball.bounciness = 0.5
 }
-floor = new Sprite(300,380)
-floor.width = 600;
-floor.height = 125;
-floor.collider = "static";
+
 }
 
